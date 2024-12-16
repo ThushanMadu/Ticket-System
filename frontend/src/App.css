@@ -1,0 +1,106 @@
+body {
+    -ms-user-select: none; /* Disables text selection */
+    -webkit-user-select: none; /* For WebKit browsers (Safari, Chrome) */
+    -moz-user-select: none; /* For Firefox */
+    user-select: none;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.config-form, .chart, .tickets-board{
+    background-color: rgba(168, 241, 110, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.config-form {
+    height: 600px;
+}
+
+.chart{
+    height: 650px;
+    margin-bottom: 1%;
+}
+
+#title-webapp{
+    text-align: center;
+    background-color: rgba(168, 241, 110, 0.8);
+    align-content: center;
+    color: rgb(1, 83, 9);
+    font-family: Impact, Haettenschweiler, 'Montserrat', sans-serif;
+    height: 80px;
+    width: 50%;
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 25%;
+    border-radius: 20px;
+}
+
+
+
+
+.btn.btn-success {
+    padding: 6px 30px;
+}
+  
+.btn.btn-danger {
+    padding: 6px 30px;
+}
+
+.btn.btn-secondary {
+    padding: 6px 30px;
+}
+
+.buttons {
+display: flex;
+gap: 20px; /* Space between buttons */
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+
+.tickets-board {
+margin-top: 0.8%;
+width: 30%;
+padding: 20px;
+margin-bottom: 1%;
+}
+
+
+.ticket-table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 20px;
+}
+
+.ticket-table thead tr {
+text-align: left;
+}
+
+.ticket-table th,
+.ticket-table td {
+padding: 10px;
+border-bottom: 1px solid #f30909;
+}
+
+.ticket-table tbody tr:nth-child(even) {
+background-color: rgba(168, 241, 110, 0.8);
+}
+
+/* Summary Table */
+.summary-table {
+width: 100%;
+font-size: 16px;
+margin-top: 20px;
+}
+
+.summary-table td {
+padding: 10px;
+font-weight: bold;
+}
+
+.summary-table td:nth-child(2) {
+text-align: right;
+}
+  
